@@ -14,6 +14,8 @@ import {
 import { RiFirstAidKitLine } from "react-icons/ri";
 import { GoGear } from "react-icons/go";
 import { BiLogOut } from "react-icons/bi";
+import Bars from "./bars";
+import Xicon from "./xicon";
 
 
 const Sidebar = () => {
@@ -78,11 +80,10 @@ const Sidebar = () => {
 
       {/* Toggle Button for small/medium screens */}
       <button
-        className="block lg:hidden ml-1 p-3 bg-teal-600 text-white fixed top-1 left-0 z-50"
+        className="block lg:hidden ml-1 p-3 bg-teal-600 text-white fixed top-1 left-0 z-50 justify-center"
         onClick={() => setSidebarOpen(!sidebarOpen)}
       >
-        {sidebarOpen ?  <Image className="text-white" src="/images/x icon.svg" alt="xicon" width={21} height={21}/> 
-         : <Image className="text-white" src="/images/bars-solid.svg" alt="xicon" width={21} height={21}/>}
+        {sidebarOpen ?  <Xicon /> : <Bars />}  
       </button>
 
       {/* Sidebar */}

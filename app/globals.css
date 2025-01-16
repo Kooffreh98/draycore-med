@@ -462,7 +462,7 @@ footer a:hover {
 
 @media (max-width: 640px) {
    .dash {
-    width: 70% !important;
+    width: 400px !important;
     margin-left: auto;
     margin-right: auto;
    }

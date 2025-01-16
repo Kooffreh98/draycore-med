@@ -32,9 +32,9 @@ const EquipmentDetail = (props: Details) => {
   // };
 
   return (
-    <form className='w-[84%] md:w-3/4 lg:w-3/4 p-6 m-auto bg-white rounded-lg shadow-md flex flex-col gap-6'>
+    <form className='w-[86%] md:w-3/4 lg:w-3/4 p-6 m-auto bg-white rounded-lg shadow-md flex flex-col gap-6'>
         <FormGroup heading='Basic Information'>
-            <div className='w-[50%] md:w-[48%] lg:w-[48%]'>
+            <div className='w-[54%] md:w-[48%] lg:w-[48%]'>
               <label htmlFor="name">Name</label>
               <InputBtn name='name' value={props.name}  />
             </div>

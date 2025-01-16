@@ -138,7 +138,7 @@ const EquipmentDetails = () => {
       <div className="flex-1 lg:ml-[21%] p-6 space-y-6 pt-20">
         <section className="bg-white p-6 rounded-lg shadow-md">
           <div className='flex flex-row justify-between h-10 my-4'>
-            <h3 className='text-black text-md md:text-lg lg:text-lg pl-5 md:pl-[15%]'>Equipment Details</h3>
+            <h3 className='text-black text-sm md:text-lg lg:text-lg pl-5 md:pl-[15%]'>Equipment Details</h3>
             <div className='flex justify-between gap-4'>
                 <Button label='Edit' otherStyles='' onClick={() => router.push(`/equipments/UpdateEquipment?id=${encodeURIComponent(Number(details.id))}`)} typeProperty="button"/>
                 <Button label='Delete'otherStyles='' onClick={() => {handleOpenModal(Number(details.id))}} typeProperty="button" />

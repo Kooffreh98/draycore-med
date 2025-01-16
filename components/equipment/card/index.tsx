@@ -29,7 +29,7 @@ const EquipmentCard = (props: CardProps) => {
         onClick={() =>
           router.push(`/equipments/details?id=${encodeURIComponent(props.id)}`)
         }
-        className="rounded border border-solid border-teal-600 h-10 w-full text-teal-600 hover:text-white justify-center items-center p-4 bg-transparent flex text-xs sm:text-sm md:text-md lg:text-md"
+        className="rounded border border-solid border-teal-600 h-10 w-full text-teal-600 hover:text-white justify-center items-center p-5 bg-transparent flex text-xs sm:text-sm md:text-md lg:text-md"
       >
         View details
       </button>
